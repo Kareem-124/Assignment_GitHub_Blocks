@@ -2,32 +2,35 @@ img{
     width: 200px;
     height: 200px;
 }
+body{
+    background-color: #C9EEFF;
+}
 .main_container{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid black;
     width: 800px;
-    height: 1200px;
+    height: 1100px;
     margin: auto;
     align-items: center;
+    background-color: #0B2447;
 }
 h1{
-    color: darkblue;
+    color: whitesmoke;
     
 }
 .first_container{
-    background-color: antiquewhite;
+    background-color: #A5D7E8;
     display: flex;
     width: 800px;
     height: 350px;
     box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
-    margin: 5% 0% 3%;
+    margin: 1% 0% 1%;
 }
 .second_container{
-    background-color: #A5D7E8;
+    background-color: #576CBC;
     display: flex;
     box-sizing: border-box;
     width: 800px;
@@ -35,15 +38,28 @@ h1{
     justify-content: space-around;
     padding: 0% 15%;
     align-items: center;
-    margin: 1% 0% 3%;
+    margin: 1% 0% 1%;
 }
 .third_container{
-    background-color: #0B2447;
+    background-color: #19376D;
     display: flex;
     width: 800px;
     height: 350px;
     box-sizing: border-box;
     justify-content: space-around;
     align-items: center;
-    margin: 1% 0% 3%;
+    margin: 1% 0% 1%;
+}
+.link:hover{
+    color: tomato;
+    cursor: pointer;
+}
+p,a{
+    color: aliceblue;
+}
+.first_container:hover,.second_container:hover,.third_container:hover{
+    border-radius: 5%;
+    background-color:#CE5959 ;
+    border: 5px goldenrod solid;
+
 }
